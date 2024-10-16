@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useMemo, useState } from "react";
+import './App.css'
 
 const App = () => {
   const [height, setHeight] = useState(70);
@@ -11,6 +12,12 @@ const App = () => {
   function onHeightChange(event) {
     setHeight(event.target.value);
   }
+
+  const output = useMemo(() => {
+    const calculateHeight = height / 100;
+
+    return (weight / (calculateHeight * calculateHeight)).toFixed(1);
+  }, [weight, height]);
 
   return (
     <main>
@@ -39,7 +46,7 @@ const App = () => {
       </div>
       <div className="output-section">
         <p>Your BMI Index is</p>
-        <p className="output">100</p>
+        <p className="output">{output}</p>
       </div>
     </main>
   );
