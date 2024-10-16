@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from "react";
-import './App.css'
+import "./App.css";
 
 const App = () => {
   const [height, setHeight] = useState(70);
