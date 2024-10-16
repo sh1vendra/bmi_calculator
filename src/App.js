@@ -11,8 +11,14 @@ const App = () => {
           type="range"
           step="1"
           min="40"
-          max="200"
-        />
+          max="200"  />
+          <p className ='slider-output'> Height: 180 cm</p>
+          <input 
+          className= 'input-slider'
+          type='range' />
+          
+
+       
       </div>
     </main>
   );
