@@ -13,7 +13,7 @@
 }
 
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
   background-color: var(--background-color);
   color: var(--text-color);
   display: flex;
@@ -74,7 +74,7 @@ h1 {
   background: var(--primary-color);
   cursor: pointer;
   border-radius: 50%;
-  transition:  0.3s ease, transform 0.1s ease;
+  transition: 0.3s ease, transform 0.1s ease;
 }
 
 .input-slider::-moz-range-thumb {
@@ -83,7 +83,7 @@ h1 {
   background: var(--primary-color);
   cursor: pointer;
   border-radius: 50%;
-  transition:  0.3s ease, transform 0.1s ease;
+  transition: 0.3s ease, transform 0.1s ease;
 }
 
 .input-slider:hover::-webkit-slider-thumb,
