@@ -1,5 +1,7 @@
 # 🧮 BMI Calculator
 
+Deployed Project: https://bmi-calculator-rho-gray.vercel.app/
+
 A simple and responsive **BMI (Body Mass Index) Calculator** built with React. This app allows you to adjust your weight and height using sliders, and it calculates your BMI dynamically as you make changes. Now you can keep track of your health in a fun way! 🎯
 
 ## ✨ Features
